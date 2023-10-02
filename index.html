@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		
+		<link href="./_app/immutable/assets/2.2338ae5b.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.8c34ff96.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.e108d1fd.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.5c12e411.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.a79fb770.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.a21d6cee.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.cc2a4f72.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.a2159bc5.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">  <h1 class="svelte-19xx0bt" data-svelte-h="svelte-e65jdm">Welcome to SvelteKit + GitHub Pages</h1> <p data-svelte-h="svelte-1n5v8o9">It is super easy to publish SvelteKit project on GitHub Pages. Create a GitHub repo before starting this.</p> <ul data-svelte-h="svelte-nxdy2e"><li>Install SvelteKit</li> <li>Install @sveltejs/adapter-static and gh-pages. `npm i -D @sveltejs/adapter-static gh-pages`</li> <li>Update svelte.config.js by changing adapter-auto to adaptor-static.
+   `import adapter from &#39;@sveltejs/adapter-static&#39;;`</li> <li>Add the following to `src/routes/+layout.js`
+    `export const prerender = true;`</li> <li>Add a script to package.json. `&quot;gh-pages&quot;: &quot;npm run build &amp;&amp; npx gh-pages -d build&quot;`</li> <li>If you are using a postcss such as Tailwind css, you need to add an empty .nojekyll file to the gh-pages branch.</li></ul> <p data-svelte-h="svelte-wymmrn">Now you just need to run `npm run gh-pages`.
+</p> 
+			
+			<script>
+				{
+					__sveltekit_hmr20g = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.8c34ff96.js"),
+						import("./_app/immutable/entry/app.a79fb770.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
